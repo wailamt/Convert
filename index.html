@@ -105,7 +105,7 @@
                 const encryptedData = encryptData({ message: userInput }, encryptionKey);
 
                 // 调用后端接口
-                const response = await fetch('https://big5convert.vercel.app/api/convert', {
+                const response = await fetch('https://convert-murex.vercel.app/api/convert', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
